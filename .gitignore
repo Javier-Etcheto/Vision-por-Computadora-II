@@ -1,0 +1,27 @@
+# Modelos y tensores guardados
+*.pt
+*.pth
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+
+# Jupyter notebooks temporales
+.ipynb_checkpoints/
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos de datos y caché
+*.csv
+*.npy
+*.npz
+*.pkl
+.DS_Store
+
+# Archivos ocultos o temporales
+*.swp
+*.bak
+*~
