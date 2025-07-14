@@ -25,3 +25,7 @@ venv/
 *.swp
 *.bak
 *~
+
+# Carpetas de logs y checkpoints
+checkpoints/
+lightning_logs/
