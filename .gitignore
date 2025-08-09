@@ -19,6 +19,7 @@ venv/
 *.npy
 *.npz
 *.pkl
+*.ckpt
 .DS_Store
 
 # Archivos ocultos o temporales
