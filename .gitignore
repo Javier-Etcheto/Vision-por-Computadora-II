@@ -1,6 +1,7 @@
 # Modelos y tensores guardados
 *.pt
 *.pth
+*.pt
 
 # Archivos de Python
 __pycache__/
