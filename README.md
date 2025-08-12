@@ -24,9 +24,19 @@ En esta notebook se realiza un estudio más profundo:
 - Comparación de métricas a nivel de entrenamiento (*accuracy* y *loss*) y en test (*recall*, *F1-score* y la métrica presentada).  
 - Presentación de conclusiones y comparaciones finales.
 
+- ## 4. `Benchmark_models_morelayers.ipynb`
+En esta notebook se realiza un estudio más profundo, con más capas descongeladas:
+- Selección de modelos adicionales (todos preentrenados sobre *ImageNet*).
+- Comparación de resultados con el baseline.
+- Evaluación con diferentes *learning rates*.
+- Descongelado de un mayor número de capas que en el punto 3 para analizar el impacto en la performance.
+- Comparación de métricas a nivel de entrenamiento (*accuracy* y *loss*) y en test (*recall*, *F1-score* y la métrica presentada).  
+- Presentación de conclusiones y comparaciones finales.
+
 ---
 
 ## Presentación Final
 [Enlace a la presentación (en proceso)](https://docs.google.com/presentation/d/1GWRU1OKkmZsF65p9SG8CCbN_5kFRfw7LJa9zsj6W8Gg/edit?slide=id.p#slide=id.p)
+
 
 
