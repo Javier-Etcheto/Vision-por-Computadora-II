@@ -13,23 +13,14 @@ En esta notebook se realiza un análisis exploratorio del dataset de radiografí
 En esta notebook se lleva a cabo:
 - Selección de un modelo base: **ResNet18** (preentrenado sobre *ImageNet*).
 - Entrenamiento del modelo y evaluación de métricas: *accuracy*, *loss*, *recall* y *F1-score*.
-- Presentación de un nuevo *score* que se utilizará posteriormente en el análisis comparativo.
+- Presentación de conclusiones.
 
 ## 3. `Benchmark_models.ipynb`
-En esta notebook se realiza un estudio más profundo:
+En esta notebook se realiza lo siguiente:
 - Selección de modelos adicionales (todos preentrenados sobre *ImageNet*).
 - Comparación de resultados con el baseline.
 - Evaluación con diferentes *learning rates*.
 - Descongelado de distintos números de capas para analizar el impacto en la performance.
-- Comparación de métricas a nivel de entrenamiento (*accuracy* y *loss*) y en test (*recall*, *F1-score* y la métrica presentada).  
-- Presentación de conclusiones y comparaciones finales.
-
-- ## 4. `Benchmark_models_morelayers.ipynb`
-En esta notebook se realiza un estudio más profundo, con más capas descongeladas:
-- Selección de modelos adicionales (todos preentrenados sobre *ImageNet*).
-- Comparación de resultados con el baseline.
-- Evaluación con diferentes *learning rates*.
-- Descongelado de un mayor número de capas que en el punto 3 para analizar el impacto en la performance.
 - Comparación de métricas a nivel de entrenamiento (*accuracy* y *loss*) y en test (*recall*, *F1-score* y la métrica presentada).  
 - Presentación de conclusiones y comparaciones finales.
 
